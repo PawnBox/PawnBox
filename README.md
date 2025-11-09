@@ -18,9 +18,9 @@ The initial release includes:
 
 ## Setup
 This section will change soon, but now the project uses strict **16.16.0 Node.js** version with **8.11.0 npm**, and is based on **PixiJS 7.4**.
-`npm install` - install all project dependencies
-`npm start` - to run and test the project with webserver
-`npm run dev`-  to create a release build
+- `npm install` - install all project dependencies
+- `npm start` - to run and test the project with webserver
+- `npm run dev`-  to create a release build
 
 ## Usage
 ### PawnRoot
@@ -124,6 +124,8 @@ export class RotateModule extends PawnModule<RotateModuleData> {
     }
 }
 ```
-<center><img src="https://pawnbox.org/example/example.gif" width=25% height=25%></center>
-[Example preview](https://pawnbox.org/example/ "Link to the example")
+<img src="https://pawnbox.org/example/example.gif" width=25% height=25%>
+
+[Example preview](https://pawnbox.org/example/ "Unfinished Catcher Game")
+
 For the source reference, please check `Main.ts` and `RotateModule.ts` in the repository.
